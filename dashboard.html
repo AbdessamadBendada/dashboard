@@ -502,7 +502,7 @@ function initHeader() {
   const h = now.getHours();
   const greet = h < 12 ? 'Good morning' : h < 18 ? 'Good afternoon' : 'Good evening';
   document.querySelector('.greeting').innerHTML =
-    `${greet}, <span>${ls.get('userName') || 'Freelancer'}</span> 👋`;
+    `${greet}, <span>${ls.get('userName') || 'Abdessamad'}</span> 👋`;
   $('date-display').textContent = now.toLocaleDateString('en-GB', {
     weekday:'long', day:'numeric', month:'long', year:'numeric'
   }).toUpperCase();
